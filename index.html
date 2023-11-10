@@ -4,181 +4,257 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/Style.css">
+    <link rel="stylesheet" href="assets/CSS/normalize.css">
+
 </head>
-<body BGCOLOR="#B3BFC5" ;>
+<body>
 <header>
-    <nav align="Right">
-        <img src="assets/otherImage/photo_2023-07-14_05-31-34.jpgassets/otherImage/photo_2023-07-14_05-31-34.jpg" alt="logo" width="50" height="50" align="left">
-        <a href="#home">Home</a>
-        <a href="#aboutme">About me</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#services">Services</a>
-        <a href="#contactme">Contact me</a><br><br><br>
+    <nav align="Right" id="navBar">
+        <img src="assets/otherImage/img_2.png" alt="logo" width="50" height="50" align="left" id="logo">
+        <ol>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contactme">Contact me</a></li>
+            <br><br><br>
+        </ol>
     </nav>
 </header>
+ <main>
+    <section id="home">
 
-<main>
-    <div id="home">
-      <center> <img src="" alt="profile image" align="center"></center>
-        <h4 align="center">Hi I'm Lehan Amanda <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fullstack Developper</h4>
-        <a href=""><img src="" alt="Github"></a>
-        <a href=""><img src="" alt="Instagram"></a>
-        <a href=""><img src="" alt="HackerRank"></a>
-        <a href=""><img src="" alt="linkedin"></a><br>
-        <a href="#contactme"> <br>
-            <button> Hire me</button>
+        <div id="profileImage"> <img src="assets/otherImage/img_11.png" alt="profileImage">
+        </div>
+        <h2 id="hi">Hi I'm </h2>
+        <h2 id="lehan">Lehan Amanda</h2>
+        <h2 id="ful">Fullstack Developer</h2>
+
+        <ol id="social">
+            <li>
+                <div><a href=""><img src="assets/socialImage/icons8-github-30 (1).png" alt="Github"></a></div>
+            </li>
+            <li>
+                <div><a href=""><img src="assets/socialImage/icons8-facebook-100.png" alt="facabook" height="30px"></a>
+                </div>
+            </li>
+            <li>
+                <div><a href=""><img src="assets/socialImage/icons8-instagram-30.png" alt="Instagram"></a></div>
+            </li>
+            <li>
+                <div><a href=""><img src="assets/socialImage/icons8-twitter-30%20(1).png" alt="twitter"></a></div>
+            </li>
+            <br>
+        </ol>
+        <a href="#contactme"> <button class="btn" id="btnHireMe"> Hire me</button></a>
         </a>
-
         <hr>
-    </div>
+    </section>
 
-    <div id="aboutme">
+    <section id="aboutme">
         <h3>About Me</h3>
-       <section>
-           <p> <img src="assets/otherImage/img_1.png" alt="My Image" height="150px">
-             imLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctusnec ullamcorper mattis,
-                pulvinar dapibus leop llamcorper, lorem ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut
-                elit tellus luctusnec ullamcorper mattis, pulvinar dapibus leop llamcorper, lorem ipsum.
-            <center><button>Download CV</button></p></center>
-       </section>
-        <section>
-            <a href="#educational"> <br>
-                <button>Educationl</button><br><br></a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="gallery"><button>Gallery</button><br><br></a>
-            <section id="educational">
-            <img src="assets/otherImage/download.jpeg" alt="school" width="40px" height="40px">
-            <img src="assets/otherImage/images (3).png" alt="school"width="40px" height="40px">
-                <img src="assets/otherImage/images.jpeg" alt="sch"width="40px" height="40px">
-                <img src="assets/otherImage/images.png" alt=""width="40px" height="40px">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+        <section id="aboutSection">
+           <img src="assets/otherImage/img_1.png" alt="My Image" height="150px" id="aboutImage">
+            <p>
+                Hello, I’m Lehan Amanda. I’m 21 years old young and highly active enthusiast. I’m a developer living in Panadura, Sri Lanka. I’m currently studying in Institute Software Engineering (IJSE). My interests are in BackEnd  Engineering and FrontEnd  Engineering. I have  good knowledge of Java,Python,Html,Css,Java Script,. I am a motivated, organized and friendly individual with a passion for coding and software development.
+            </p>
+            <button id="btnDowunloadCv">Dounload cv</button>
+        </section >
+        <div id="aboutsectionR">
+        <button class="btn">Education</button>
+            <br>
+        <button class="btn">Gallery</button>
+            <hr>
+        </div>
+       <section id="restPartAboutme">
+
+        <section id="educational">
+<!--            //////-->
+            <h3>Education</h3>
+            <div id="school">
+            <div><img src="assets/EducationImage/sriparkkama.jpeg" alt=""><h4>Sri parakkama M.v</h4></div>
+            <div><img src="assets/EducationImage/royalcollege.png" alt=""><h4>Royal college Panadura M.V</h4></div>
+            <div><img src="assets/EducationImage/hifuture.jpeg" alt=""><h4>IPS Future World</h4></div>
+            <div><img src="assets/EducationImage/moratuwa.png" alt=""><h4>UOM</h4></div>
+            <div><img src="assets/EducationImage/ijse.png" alt=""><h4>IJSE</h4></div>
+            <div><img src="assets/EducationImage/images (1).png" alt=""><h4>ICET</h4></div>
+            <div><img src="assets/EducationImage/heladeves.png" alt=""><h4>Heladeves Sweden</h4></div>
+            <div><img src="assets/EducationImage/PngItem.png" alt=""><h4>Java Instute</h4></div>
+            </div>
+        </section>
+
+        <section id="Gall">
+<!--            //////-->
+            <h3>Gallery</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur cum doloremque doloribus esse excepturi incidunt, inventore libero magnam neque nisi praesentium quasi qui quia ratione repudiandae sapiente veniam voluptas.</p>
+            <section id="Gphotoes">
+            <div>
+<!--                <div></div>-->
+<!--                <div></div>-->
+<!--                <div></div>-->
+<!--                <div></div>-->
+            </div>
+
             </section>
         </section>
-        <section>
-            <section id="gallery"></section>
+           <h5>ki</h5>
+           <hr>
+       </section>
+
+    </section>
+
+    <section id = "experience">
+            <h3>Experience</h3>
+            <section>
+                <h5>Professional Experience</h5>
+                <ul type="Circle">
+                    <li>Member Of FTS Comapany(Inovesta)</li>
+                    <li>Complete Programming in Python (Open Learning Platform - UoM)</li>
+
+                </ul>
+            </section>
+            <section>
+                <h5>Educational Experience</h5>
+                <ul type="Circle">
+                    <li>Member of the School perfect board </li>
+                    <li>Member of the School Cricket Team (vice Captain)</li>
+                    <li>Member of the Tecniblaster(ijse) Champion Cricket Team (The best Catcher)</li>
+                    <li></li>
+                </ul>
+            </section>
+            <hr>
+    </section>
+
+        <section id="projects">
+            <h3>Project and Assignment</h3>
+            <section>
+                <section>
+
+                    <h5> Personal projects</h5>
+                    <div><img src="assets/otherImage/images (1).jpeg" alt="1" height="50px"></div>
+                    <div><img src="assets/otherImage/images (1).jpeg" alt="1" height="50px"></div>
+                    <div><img src="assets/otherImage/images (1).jpeg" alt="1" height="50px"></div>
+                     <img src="assets/otherImage/images (1).jpeg" alt="2" height="50px">
+                    <img src="assets/otherImage/images (1).jpeg" alt="2" height="50px"><br>
+                    <img src="assets/otherImage/images (1).jpeg" alt="1" height="50px">
+                    <img src="assets/otherImage/images (1).jpeg" alt="2" height="50px">
+                    <img src="assets/otherImage/images (1).jpeg" alt="2" height="50px"><br>
+                    <img src="assets/otherImage/images (1).jpeg" alt="1" height="50px">
+                    <img src="assets/otherImage/images (1).jpeg" alt="2" height="50px">
+                    <img src="assets/otherImage/images (1).jpeg" alt="2" height="50px"><br>
+
+                </section>
+
+                <section>
+                <h5>Group projec</h5>
+                </section>
+
+            </section>
+            <section>
+                <h5>Assignment</h5>
+
+            </section>
+
             <hr>
         </section>
-    </div>
 
-    <div id="experience">
-        <h3>Experience</h3>
-        <section>
-            <h5>Professional Experience</h5>
-            <ul type="Circle">
-                <li>lioiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
-                <li>lioiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
-                <li>lioiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
-                <li>lioiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
-            </ul>
-        </section>
-        <section>
-            <h5>Other Experience</h5>
-            <ul type="Circle">
-                <li>lioiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
-                <li>lioiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
-                <li>lioiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
-                <li>lioiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
-            </ul>
-        </section>
-        <hr>
-    </div>
-
-    <div id="projects">
-        <h3>Project and Assignment</h3>
-        <section>
-            <section>
-                <h5> Personal projects</h5>
-                <img src="assets/otherImage/images (1).jpeg" alt="1" height="50px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/otherImage/images (1).jpeg" alt="2" height="50px">&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/otherImage/images (1).jpeg" alt="2" height="50px">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                <img src="assets/otherImage/images (1).jpeg" alt="1" height="50px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/otherImage/images (1).jpeg" alt="2" height="50px">&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/otherImage/images (1).jpeg" alt="2" height="50px">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                <img src="assets/otherImage/images (1).jpeg" alt="1" height="50px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/otherImage/images (1).jpeg" alt="2" height="50px">&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/otherImage/images (1).jpeg" alt="2" height="50px">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                <img src="assets/otherImage/images (1).jpeg" alt="1" height="50px"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/otherImage/images (1).jpeg" alt="2" height="50px">&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/otherImage/images (1).jpeg" alt="2" height="50px">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<br>
-                <img src="" alt="1"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                <img src="" alt="1"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                <img src="" alt="1"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                <img src="" alt="1"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<br>
+        <section id="services">
+            <section id="ser">
+                <h3>Services</h3>
+                <ul type="Circle" id="serviceUl">
+                    <li>Custom Software Development.</li>
+                    <li>Software Prototyping.</li>
+                    <li>Quality Assurance.</li>
+                    <li>Cloud Consulting.</li>
+                </ul>
+                <div id="lineCirle">
+                <img src="assets/otherImage/img_7.png" alt="" >
+                </div>
+                <ul type="Circle" id="serviceUl2">
+                    <li>Web Application Development</li>
+                    <li>Mobile Application Development</li>
+                </ul>
             </section>
             <section>
-                <h5> Group projects</h5>
-                <img src="" alt="1"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                <img src="" alt="1"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                <img src="" alt="1"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                <h5>Customer Comments </h5>
+                <ul>
+                    <li><img src="assets/otherImage/full-shot-smiley-woman-with-smartphone.jpg" height="50px"></li>
+                </ul>
             </section>
-        </section>
-        <section>
-            <h5>Assignment</h5>
-
-            <img src="" alt="1"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-            <img src="" alt="1"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-            <img src="" alt="1"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-            <img src="" alt="1"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<img src="" alt="2">&nbsp;&nbsp;&nbsp;&nbsp;<br>
 
         </section>
+     <hr>
+        <section id="contactme">
+            <h3>Contact me</h3>
+            <h5>Contact Information</h5>
 
-        <hr>
-    </div>
+            <ol id="contactInformation">
+                <li>
+                    <img src="assets/contactMeIcons/icons8-user.png" alt="profile" align="left">
+                </li>
+                <li>
+                    <img src="assets/socialImage/icons8-gmail-48.png" alt="gmil" align="left">
+                </li>
+                <li>
+                   <img src="assets/contactMeIcons/contact.png" alt="tp" align="left">
+                </li>
+                <li>
+                   <img src="assets/contactMeIcons/icons8-user-location-100.png" alt="address" align="left">
+                </li>
+            </ol>
+            <ol id="lebalSection">
+                 <li> <label> D.M Lehan Amanda</label></li>
+                <li> <label> dmlehanamanda@gmail.com</label></li>
+                <li><label> 0767615631</label></li>
+                <li><label> No:31/29Malwaththa,Rukgha</label></li>
+            </ol>
 
-    <div id="services">
-        <section>
-        <h3>Services</h3>
-            <ul type="Circle">
-                <li>lioiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
-                <li>lioiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
-                <li>lioiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
-                <li>lioiiiiiiiiiiiiiiiiiiiiiiiiiiii</li>
-            </ul>
+      <div id="formSec">
+            <form action="text">
+                <div> <input type="name" id="name" name="name" placeholder="Name"></div>
+                <br>
+                <div> <input type="email"id="email" name="email" placeholder="Email"></div>
+                <br>
+                <div> <input type="contact" id="contact" name="contact" placeholder="Contact"><br></div>}
+                
+                <br>
+                <textarea id="message" cols="50" rows="5" name="message" placeholder="Message"></textarea>
+                <br><br>
+            </form>
+      </div>
+            <ol id="socialContact">
+                <li>
+                    <div><a href=""><img src="assets/socialImage/icons8-github-30 (1).png" alt="Github"></a></div>
+                </li>
+                <li>
+                    <div><a href=""><img src="assets/socialImage/icons8-facebook-100.png" alt="facabook" height="30px"></a>
+                    </div>
+                </li>
+                <li>
+                    <div><a href=""><img src="assets/socialImage/icons8-instagram-30.png" alt="Instagram"></a></div>
+                </li>
+                <li>
+                    <div><a href=""><img src="assets/socialImage/icons8-twitter-30%20(1).png" alt="twitter"></a></div>
+                </li>
+                <br>
+            </ol>
+
+                &nbsp;&nbsp; <a href="">
+                <button class="btn" id="submit">Submit</button>
+                <br></a><br>
+
+
         </section>
-        <section>
-           <h5>Customer Comments </h5>
-            <ul>
-          <li><img src="assets/otherImage/full-shot-smiley-woman-with-smartphone.jpg" height="50px"></li>
-            </ul>
-        </section>
-        <hr>
-    </div>
-
-    <div id="contactme">
-        <h3>Contact me</h3>
-        <h5>Contact Information</h5>
-            <img src="" alt="profile" align="left"> <label> D.M Lehan Amanda</label><br><br>
-            <img src="" alt="gmil" align="left"> <label> dmlehanamanda@gmail.com</label><br><br>
-            <img src="" alt="tp" align="left"> <label> 0767615631</label><br><br>
-            <img src="" alt="address" align="left"> <label> No:31/29Malwaththa,Rukgha</label><br><br>
-
-          <form action="">
-          <lable for="name" align="center">Name</lable>
-          <br>
-          <input type="name" id="name" name="name"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><img
-              src="" alt="Github" aria-label="right"></a><br><br>
-          <lable for="email">Email</lable>
-            <br>
-            <input type="email" id="email" name="email"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><img
-                src="" alt="facebook"></a><br><br><br><br>
-
-            <lable for="contact">Contact</lable>
-            <br>
-            <input type="contact" id="contact" name="contact"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
-                href=""><img src="" alt="histergram"></a><br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href=""><img src="" alt="twittrer"></a><br><br>
-            <lable for="message">Message</lable>
-            <br>
-            <textarea type="text" id=message cols="50" rows="5" name="message"> </textarea><br><br>
-
-             &nbsp;&nbsp; <a href=""><button>Submit</button><br></a><br>
-
-        </form>
 
 
-    </div>
-</main>
-<footer>
+<footer id="footer">
     <center>
-        <p>Copyright © All rights .</p>
+        <p id="copy">Copyright © All rights .</p>
     </center>
 </footer>
+ </main>
 </body>
+
 </html>
