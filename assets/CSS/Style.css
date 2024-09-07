@@ -1,9 +1,9 @@
 body {
     position: relative;
     margin: 0;
-    background: #1F1F1F;
+    /*background: #1F1F1F;*/
 }
-
+/*navbar & head */
 #navBar {
     z-index: 10000;
     top: 0;
@@ -15,11 +15,22 @@ body {
     padding: 20px;
     margin-bottom: 500px;
 }
-
-#navBar > ol > li > a {
+#navBar > ol > li > a{
     text-decoration: none;
 }
-
+#navBar > ol {
+    position: absolute;
+    top: 0;
+    right: 4vw;
+}
+#navBar > ol > li {
+    margin-right: 2vw;
+    display: inline-block;
+    margin-right: 2vw;
+    color: white;
+    box-shadow: white;
+}
+/*home*/
 #home {
 
     position: relative;
@@ -33,7 +44,6 @@ body {
     aspect-ratio: 1/1;
 
 }
-
 @media all and (max-width: 1753px) {
     #hi {
         font-size: 70px;
@@ -95,7 +105,6 @@ body {
     }
 
 }
-
 @media all and (max-width: 1024px) {
     #hi {
         font-size: 50px;
@@ -161,7 +170,6 @@ body {
     }
 
 }
-
 #social {
     position: absolute;
     bottom: 4vw;
@@ -169,14 +177,12 @@ body {
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
 }
-
 #social > li {
     margin-right: 2vw;
     display: inline-block;
     border-bottom-left-radius: 50%;
 
 }
-
 #social > li > div {
     position: relative;
     width: 35px;
@@ -184,7 +190,6 @@ body {
     background: #28E98C;
     border-radius: 100%;
 }
-
 #social > li > div > img {
     position: absolute;
 
@@ -195,13 +200,11 @@ body {
     right: 0;
 
 }
-
 #btnHireMe {
     position: absolute;
     bottom: 40px;
     left: 50px;
 }
-
 #aboutme {
     position: absolute;
     width: 100vw;
@@ -212,7 +215,6 @@ body {
     position: absolute;
     bottom: 0;
 }
-
 #aboutSection {
     margin-top: 20px;
     position: absolute;
@@ -242,7 +244,6 @@ body {
     height: auto;
     margin-left: 330px;
 }
-
 #aboutImage {
     width: 50px;
     position: absolute;
@@ -253,8 +254,6 @@ body {
     bottom: 0;
     top: 0;
 }
-
-
 #services {
     top: 100px;
     position: relative;
@@ -263,26 +262,21 @@ body {
     background: #1F1F1F;
     top:1000px;
 }
-
-
 #contactme {
     height: 500px;
     position: absolute;
     width: 100vw;
     background: #1F1F1F;
 }
-
 #experience {
 
     width: 100vw;
     background: #1F1F1F;
 }
-
 .btn {
     background: #28E98C;
     border-radius: 50px;
 }
-
 .eduationalTitle {
     position: absolute;
     display: inline-block;
@@ -290,7 +284,6 @@ body {
     top: 60px;
     left: 2px;
 }
-
 #school{
     background:#1F1F1F ;
     position:absolute ;
@@ -347,13 +340,11 @@ body {
     bottom: 50px;
 
 }
-
 #btnHireMe {
     height: 30px;
     width: 150px;
     background: #28E98C;
 }
-
 #logo {
     /*height: 50px;*/
     /*padding: 0;*/
@@ -364,44 +355,23 @@ body {
     bottom: 10px;
 
 }
-
 #footer {
     color: #28E98C;
     background: #1F1F1F;
 }
-
 h3 {
     color: #28E98C;
     margin: 0;
 
 }
-
 h5 {
     color: #1F1F1F;
     margin: 0;
 }
 
-#navBar > ol {
-    position: absolute;
-    top: 0;
-    right: 4vw;
-
-}
-
-#navBar > ol > li {
-    margin-right: 2vw;
-    display: inline-block;
-    margin-right: 2vw;
-    color: white;
-    box-shadow: white;
-}
-
 a {
     color: white;
 }
-
-
-
 #projects > section > section {
     border: 5px solid springgreen;
     width: 500px;
@@ -410,17 +380,14 @@ a {
     grid-template-row: 1fr 1fr 1fr 1fr;
     grid-template-columns:1fr 1fr 1fr 1fr;
 }
-
 hr {
     margin: 0;
     background: #28E98C;
     color: #28E98C;
 }
-
 #copy {
     margin: 0;
 }
-
 h4 {
     color: white;
 }
@@ -430,7 +397,6 @@ h4 {
     color: white;
     box-shadow: white;
 }
-
 #contactInformation{
     list-style: none;
     position: absolute;
@@ -440,8 +406,6 @@ h4 {
 #contactInformation>li{
     position: relative;
     bottom: 50px;
-
-
 }
 #ser{
     position: absolute;
@@ -451,7 +415,7 @@ h4 {
     height: 300px;
     position: absolute;
     top: 50px;
-  left: 800px;
+    left: 800px;
     border-radius: 50%;
     background-color: #28E98C;
 }
@@ -466,7 +430,7 @@ h4 {
     right: 0;
     bottom: 0;
 }
- #contactme>#contactInformation>li>img{
+#contactme>#contactInformation>li>img{
      width: 50px;
      aspect-ratio: 1/1;
      margin: 0;
@@ -511,14 +475,12 @@ h4 {
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
 }
-
 #socialContact > li {
     margin-bottom: 2vw;
     display: flex;
     border-bottom-left-radius: 50%;
 
 }
-
 #socialContact > li > div {
     position: relative;
     width: 35px;
@@ -526,7 +488,6 @@ h4 {
     background: #28E98C;
     border-radius: 100%;
 }
-
 #socialContact > li > div > img {
     position: absolute;
 
@@ -548,11 +509,8 @@ h4 {
     margin-top :5px;
 }
 #restPartAboutme{
-
-
     position: relative;
     top: 500px;
-
 }
 #educational {
     position: absolute;
@@ -570,36 +528,26 @@ h4 {
     width:100vw;
     height:400px;
     border: 5px solid lightgreen;
-
-
 }
-
 #Gphotoes>div{
-
     width:500px;
     height: 250px;
-    /*background-color: white;*/
-
     position: absolute;
     margin: auto;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-
 }
 #Gphotoes>div:nth-child(1){
     background-image: url("/assets/New folder/photo_2023-08-08_15-53-21.jpg");
 }
-
 #Gphotoes>div:nth-child(2){
     background-image: url("/assets/New folder/lehan1.jpg");
 }
-
 #Gphotoes>div:nth-child(2){
     background-image: url("/assets/New folder/photo_2023-08-08_15-53-32.jpg");
 }
-
 #Gphotoes>div:nth-child(2){
     background-image: url("/assets/New folder/photo_2023-08-31_18-23-53.jpg");
 }
