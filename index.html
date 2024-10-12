@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/CSS/Style.css">
     <link rel="stylesheet" href="assets/CSS/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="assets/CSS/animista%20(1).css">
+    <link rel="stylesheet" href="https://animista.net/assets/css/animista.min.css">
 
 </head>
 <body>
+
 <!--header-->
 <header>
     <nav align="Right" id="navBar">
         <img src="assets/otherImage/img_2.png" alt="logo" width="50" height="50" align="left" id="logo">
-        <ol>
+        <ol >
             <li><a href="#home">Home</a></li>
             <li><a href="#aboutme">About Me</a></li>
             <li><a href="#experience">Experience</a></li>
@@ -24,46 +30,56 @@
         </ol>
     </nav>
 </header>
+
+
 <!--main section-->
+
  <main>
 <!--     home section-->
-    <section id="home">
-        <div id="profileImage"> <img src="assets/otherImage/img_11.png" alt="profileImage">
-        </div>
-        <h2 id="hi">Hi I'm </h2>
-        <h2 id="lehan">Lehan Amanda</h2>
-        <h2 id="ful">Fullstack Developer</h2>
+     <section id="home">
+         <div id="profileImage"> <img src="assets/otherImage/pulliimage.jpg" alt="profileImage">
+         </div>
+         <h2 id="hi" class="animate__animated animate__bounce" >Hi I'm </h2>
+         <h2 id="lehan" class="animate__slideOutUp">Pulliya</h2>
+         <h2 id="ful" class="flip-horizontal-bottom">Fullstack Developer</h2>
 
-        <ol id="social">
-            <li>
-                <div><a href=""><img src="assets/socialImage/icons8-github-30 (1).png" alt="Github"></a></div>
-            </li>
-            <li>
-                <div><a href=""><img src="assets/socialImage/icons8-facebook-100.png" alt="facabook" height="30px"></a>
-                </div>
-            </li>
-            <li>
-                <div><a href=""><img src="assets/socialImage/icons8-instagram-30.png" alt="Instagram"></a></div>
-            </li>
-            <li>
-                <div><a href=""><img src="assets/socialImage/icons8-twitter-30%20(1).png" alt="twitter"></a></div>
-            </li>
-            <br>
-        </ol>
-        <a href="#contactme"> <button class="btn" id="btnHireMe"> Hire me</button></a>
-        </a>
-        <hr>
-    </section>
+         <ol id="social">
+             <li>
+                 <div><a href=""><img src="assets/socialImage/icons8-github-30 (1).png" alt="Github"></a></div>
+             </li>
+             <li>
+                 <div><a href=""><img src="assets/socialImage/icons8-facebook-100.png" alt="facabook" height="30px"></a>
+                 </div>
+             </li>
+             <li>
+                 <div><a href=""><img src="assets/socialImage/icons8-instagram-30.png" alt="Instagram"></a></div>
+             </li>
+             <li>
+                 <div><a href=""><img src="assets/socialImage/icons8-twitter-30%20(1).png" alt="twitter"></a></div>
+             </li>
+             <br>
+         </ol>
+         <a href="#contactme"> <button class="btn" id="btnHireMe"> Hire me</button></a>
+         </a>
+         <hr>
+     </section>
+
 <!--aboutme section-->
+
     <section id="aboutme">
         <h3>About Me</h3>
+
         <section id="aboutSection">
            <img src="assets/otherImage/to_202412.jpg" alt="My Image" height="150px" id="aboutImage">
-            <p>
+            <p data-aos="zoom-out">
                 Hello, I’m Lehan Amanda. I’m 21 years old young and highly active enthusiast. I’m a developer living in Panadura, Sri Lanka. I’m currently studying in Institute Software Engineering (IJSE). My interests are in BackEnd  Engineering and FrontEnd  Engineering. I have  good knowledge of Java,Python,Html,Css,Java Script,. I am a motivated, organized and friendly individual with a passion for coding and software development.
+                Hello, I’m Lehan Amanda. I’m 21 years old young and highly active enthusiast. I’m a developer living in Panadura, Sri Lanka. I’m currently studying in Institute Softwar  Hello, I’m Lehan Amanda. I’m 21 years old young and highly active enthusiast. I’m a developer living in Panadura, Sri Lanka. I’m currently studying in Institute Software Engineering (IJSE). My interests are in BackEnd  Engineering and FrontEnd  Engineering. I have  good knowledge of Java,Python,Html,Css,Java Script,. I am a motivated, organized and friendly individual with a passion for coding and software development.
+
             </p>
             <button id="btnDowunloadCv">Dounload cv</button>
         </section >
+
+
         <div id="aboutsectionR">
         <button class="btn">Education</button>
             <br>
@@ -93,10 +109,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur cum doloremque doloribus esse excepturi incidunt, inventore libero magnam neque nisi praesentium quasi qui quia ratione repudiandae sapiente veniam voluptas.</p>
             <section id="Gphotoes">
             <div>
-<!--                <div></div>-->
-<!--                <div></div>-->
-<!--                <div></div>-->
-<!--                <div></div>-->
+
             </div>
 
             </section>
@@ -105,7 +118,9 @@
            <hr>
        </section>
 
+
     </section>
+
 <!--experience section-->
     <section id = "experience">
             <h3>Experience</h3>
@@ -196,10 +211,13 @@
 
         </section> <hr>
 <!--     contactme section-->
+
         <section id="contactme">
             <h3>Contact me</h3>
             <h5>Contact Information</h5>
+
 <!--         ol contactinformation id=contactInformation-->
+
             <ol id="contactInformation">
                 <li>
                     <img src="assets/contactMeIcons/icons8-user.png" alt="profile" align="left">
@@ -223,6 +241,7 @@
             </ol>
 <!--         form dive id=formSec-->
             <div id="formSec">
+
             <form action="text">
                 <div> <input type="name" id="name" name="name" placeholder="Name"></div>
                 <br>
@@ -235,6 +254,7 @@
                 <br><br>
             </form>
       </div>
+
 <!--            ol social media section id=socialContact-->
             <ol id="socialContact">
                 <li>
@@ -252,17 +272,29 @@
                 </li>
                 <br>
             </ol>
+
                 &nbsp;&nbsp; <a href="">
                 <button class="btn" id="submit">Submit</button>
                 <br></a><br>
         </section>
 <!--footer section-->
+
+
 <footer id="footer">
     <center>
         <p id="copy">Copyright © All rights .</p>
     </center>
 </footer>
+
  </main>
+
+
+<!--<script>-->
+<!--    AOS.init();-->
+<!--</script>-->
+<!--&lt;!&ndash;AOS&ndash;&gt;-->
+<!--<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
+
 </body>
 <!--body close-->
 </html>
