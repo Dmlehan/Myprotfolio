@@ -1,0 +1,550 @@
+body{
+    display: block;
+    color-scheme: dark;
+    background: radial-gradient(circle at top center, rgba(125, 188, 255, 0.5) 0, transparent 50%, transparent 100%);
+    background-color: var(--bg-color);
+    background-attachment: fixed;
+}
+
+:root{
+    --bg-color: #1f242d;
+    --theme-color: #01EEFF ;
+    --theme-color1: #323846 ;
+    --back-ground-color:#041632;
+    --white-color: #ffff;
+    --black-color: #000000FF;
+}
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--back-ground-color);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins' ,sans-serif;
+
+}
+
+section{
+    padding: 3rem 3% 2rem;
+    overflow: hidden;
+}
+
+
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: #041632;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+nav{
+    display: block;
+    unicode-bidi: isolate;
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+}
+
+.navbar a{
+    font-size: 1.2rem;
+    color: var(--white-color);
+    margin-left: 1rem;
+    transition: 1s;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: #00fff9;
+}
+#menu-icon{
+    font-size: 2rem;
+    color: var(--white-color);
+    display: none;
+}
+.webLogo{
+    width: 1%;
+    aspect-ratio: 1/1;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--theme-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--theme-color);
+    color: var(--black-color);
+    transition: 1s ;
+}
+.btn:hover{
+    box-shadow: 0 0 3rem var(--theme-color);
+    color: var(--white-color);
+    background: var(--back-ground-color);
+    transform: scale(1.02);
+
+}
+
+/*------------welcome page css------------*/
+.welcome-page{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation-text{
+    color: var(--theme-color);
+}
+
+.social-media-section a{
+    font-size: 2rem;
+    color: var(--theme-color);
+
+}
+.social-media-section2 a{
+    font-size: 3rem;
+    color: var(--theme-color);
+
+}
+
+#welcome-page{
+
+    color: var(--white-color);
+
+}
+
+
+#profile-picture{
+    background: transparent;
+    animation: up-down 3s ease-in-out infinite;
+}
+@keyframes up-down {
+    0%{
+        transform: translateY(0);
+
+
+    }
+    50%{
+        transform: translateY(2rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.home-text {
+    width: 180rem;
+    height: 25rem;
+    /*background: white;*/
+}
+
+#pic{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+
+.home-text h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.home-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+
+.home-text h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.home-text p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+.social-media-section a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    aspect-ratio: 1/1;
+    background: transparent;
+    border: 0.1rem solid var(--theme-color);
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 1s ease;
+}
+.social-media-section a:hover{
+    background: var(--theme-color);
+    color: var(--theme-color1);
+    box-shadow: 0 0 1rem var(--back-ground-color
+    );
+}
+.social-media-section2 a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    aspect-ratio: 1/1;
+    background: transparent;
+    border: 0.1rem solid var(--theme-color);
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 1s ease;
+}
+.social-media-section2 a:hover{
+    background: var(--theme-color);
+    color: var(--theme-color1);
+    box-shadow: 0 0 1rem var(--back-ground-color
+    );
+}
+
+
+/*------------about me page css------------*/
+
+#aboutMe-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--theme-color1);
+    /*background: transparent;*/
+    color:var(--white-color) ;
+    opacity: 95%;
+
+}
+
+#outline-picture{
+    width: 80%;
+    height:80%;
+    box-shadow: #0a6051;
+}
+#first-div{
+    width: 70%;
+    aspect-ratio: 1/1;
+
+
+}
+
+.about-me h1{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+#second-div{
+    width: 60%;
+    height: 30vh;
+
+
+
+}
+#second-div .me-text {
+    color: var(--theme-color);
+}
+#aboutMe-page p,h2{
+    font-size: 1.5rem;
+}
+
+
+
+/*------------services Section---------------*/
+
+.services .topic h2{
+    margin-bottom: 5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+.me-text {
+    color: var(--theme-color);
+
+}
+.topic{
+    margin: 2rem 0 3rem;
+}
+
+.topic{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--white-color);
+}
+
+.container .services-box {
+    flex: 1 1 10rem;
+    background: var(--theme-color1);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--theme-color1);
+    transition: 1s ease;
+}
+
+.services-box img{
+    color: var(--theme-color);
+}
+.services-box h3{
+    font-size: 2rem;
+    color: var(--white-color);
+}
+
+.services-box p{
+    font-size: 1.2rem;
+    margin: 1rem 0 3rem;
+    color: var(--white-color);
+}
+.container .services-box:hover{
+    border-color: var(--theme-color);
+    transform: scale(1.02);
+}
+
+/*------------Projects Section---------------*/
+
+#my_project{
+    background: var(--theme-color1);
+    opacity: 80%;
+}
+#my_project h2{
+    margin-bottom: 2rem;
+}
+.projects-container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.projects-container .project-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--back-ground-color);
+    overflow: hidden;
+    display: flex;
+}
+.project-box img{
+    width: 100%;
+    transition: 1s ease;
+}
+.project-box:hover img{
+    transform: scale(1.1);
+}
+.project-box .project-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.1),var(--theme-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    color: var(--white-color);
+    transform: translateY(100%);
+    transition: 2s ease;
+}
+.project-box:hover .project-layer{
+    transform: translate(0);
+}
+.project-layer h3{
+    font-size:2rem;
+}
+.project-layer p{
+    font-size: 1.1rem;
+    margin: 3rem 0 1rem;
+}
+
+.project-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--white-color);
+    border-radius: 50%;
+}
+
+
+/*------------Assignments Section---------------*/
+
+.assignments-section{
+    color: var(--white-color);
+
+}
+
+.assignments-section h2{
+    margin: 2rem;
+}
+
+.assignments-container{
+    display: flow;
+    grid-template-columns:repeat(3, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.assignments-container .assignments-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--theme-color1);
+    display: inline-flex;
+
+    overflow: hidden;
+    display: flow;
+    gap: 5rem;
+}
+.assignments-box img{
+    width: 15%;
+    transition: 1s ease;
+}
+
+.assignments-box .assignments-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.1),var(--theme-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    color: var(--white-color);
+    transform: translatex(100%);
+    transition: 2s ease;
+}
+
+.assignments-box:hover .assignments-layer{
+    transform: translate(0);
+
+}
+.assignments-layer h3{
+    font-size:2rem;
+}
+.assignments-layer p{
+    font-size: 1.1rem;
+    margin: 3rem 0 1rem;
+}
+
+/*.assignments-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--white-color);
+    border-radius: 50%;
+}*/
+
+/*------------Contact-me Section---------------*/
+
+.contact-me{
+    background: var(--theme-color1);
+    opacity: 85%;
+}
+
+.contact-me form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+
+.contact-me form .sender-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-me .sender-box input,
+.contact-me form textarea {
+        width: 100%;
+        padding: 1.5rem;
+        font-size: 1.3rem;
+        background: var(--back-ground-color);
+        border-radius: 2rem;
+        margin: .7rem 0;
+    transition: 1s ease;
+
+    }
+    .contact-me .sender-box input:hover,
+    .contact-me form textarea:hover {
+        box-shadow: var(--theme-color) 0px 8px 24px;
+    }
+
+
+    .contact-me form .sender-box input{
+        width: 49%;
+
+    }
+
+    .contact-me form textarea{
+        resize: none;
+    }
+
+/*------------Footer---------------*/
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.footer h3{
+    margin: 1rem;
+    color: var(--white-color);
+    font-size: small;
+    font-style: italic;
+}
+
+#loading-screen {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-size: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#loading-screen img{
+    width: 300px;
+}
+#viewMore{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

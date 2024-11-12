@@ -1,0 +1,66 @@
+.section-div{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.card-head{
+    padding: 2vh;
+    font-size: 2vw;
+    color: white;
+    font-weight: 600;
+    z-index: 10;
+}
+
+.card-body{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    border: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 10vw;
+    font-weight: 600;
+}
+
+.section-div-1{
+    background-color: seagreen;
+}
+
+.card-head-1{
+    position: sticky;
+    top: 0;
+    background-color: green;
+}
+
+.section-div-2{
+    background-color: dodgerblue;
+}
+
+.card-head-2{
+    position: sticky;
+    top: 0;
+    background-color: blue;
+}
+
+.section-div-3{
+    background-color: red;
+}
+
+.card-head-3{
+    position: sticky;
+    top: 0;
+    background-color: darkred;
+}
+
+.section-div-4{
+    background-color: orange;
+}
+
+.card-head-4{
+    position: sticky;
+    top: 0;
+    background-color: darkorange;
+}

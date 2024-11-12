@@ -1,0 +1,30 @@
+#pic {
+    background-image: url("assets/images/img.jpg");
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*!*height: calc(100vh - 20px);*!*/
+    margin: 0;
+}
+
+#pic>h1 {
+    color:black;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#Customers, #items, #placeOrder {
+    display: none;
+    height: 100vh;
+    margin-top: 35px;
+}
+
+#customer img, #item img {
+    width: 28px;
+    height: 28px;
+    margin-left: 180px;
+}
